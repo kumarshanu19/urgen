@@ -9,7 +9,7 @@ import { MenuComponent } from './shared/menu/menu.component';
 import { HomeComponent } from './components/home/home.component';
 import { VerificationComponent } from './auth/verification/verification.component';
 import { SignupComponent } from './auth/signup/signup.component';
-import { LayoutComponent } from './layout/layout.component';
+import { LayoutComponent } from './shared/layout/layout.component';
 
 @NgModule({
   declarations: [

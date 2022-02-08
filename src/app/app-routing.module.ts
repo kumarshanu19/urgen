@@ -4,7 +4,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { VerificationComponent } from './auth/verification/verification.component';
 import { HomeComponent } from './components/home/home.component';
-import { LayoutComponent } from './layout/layout.component';
+import { LayoutComponent } from './shared/layout/layout.component';
 
 const routes: Routes = [
   {
