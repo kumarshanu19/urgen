@@ -1,0 +1,67 @@
+
+.text-input{
+
+  position: relative;
+  margin-top: 50px;
+
+  input[type="number"]{
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: 100;
+    font-size: 17px;
+    letter-spacing: 2px;
+    background-color: #e2e2e252 !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px 10px 100px;
+    transition: all 0.1s ease-out;
+  }
+
+  input[type="number"] + label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 45px;
+    line-height: 45px;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    border-radius: 20px 0 0 20px;
+    padding: 0 20px;
+    background: #ecc9ff4b;
+    transform: translateZ(0) translateX(0);
+    transition: all 0.3s ease-in;
+    transition-delay: 0.2s;
+  }
+
+  input[type="number"]:focus + label{
+    transform: translateY(-120%) translateX(0%);
+    border-radius: 20px;
+    transition: all 0.1s ease-out;
+  }
+
+  input[type="number"]:focus{
+    padding: 10px;
+    transition: all 0.3s ease-out;
+    transition-delay: 0.2s;
+  }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff !important;
+}
+
+}
+
