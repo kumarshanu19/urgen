@@ -1,4 +1,101 @@
-<div class="main-layout">
+<!-- <div class="main-layout">
+<app-menu></app-menu>
 
+</div> -->
+
+<div class="viewport">
+  <header class="header" role="banner">
+
+    <nav id="nav" class="nav" role="navigation">
+
+      <!-- ACTUAL NAVIGATION MENU -->
+      <ul class="nav__menu p-0" id="menu" tabindex="-1" aria-label="main navigation" hidden>
+        <li class="nav__item"><a href="javascript:void(0)" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="javascript:void(0)" class="nav__link">Shop</a></li>
+        <li class="nav__item"><a href="javascript:void(0)" class="nav__link">Blog</a></li>
+        <li class="nav__item"><a href="javascript:void(0)" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="javascript:void(0)" class="nav__link">Contact</a></li>
+      </ul>
+
+      <!-- MENU TOGGLE BUTTON -->
+      <a href="javascript:void(0)" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu">
+        <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+          <title>Toggle Menu</title>
+          <g>
+            <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5"/>
+            <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+            <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+            <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
+            <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+          </g>
+        </svg>
+
+
+      </a>
+      <a href="javascript:void(0)" class="logo__toggle" role="button" aria-expanded="false" aria-controls="menu">
+
+        <svg class="w-100" xmlns="http://www.w3.org/2000/svg" width="140" height="45" viewBox="0 0 140 45">
+          <text id="URGEN" transform="translate(70 36)" fill="#f700ff" font-size="37" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-69.8" y="0">URGEN</tspan></text>
+        </svg>
+
+
+      </a>
+     <!-- <div class="w-100 text-center">
+      <svg class="logo w-100" xmlns="http://www.w3.org/2000/svg" width="140" height="45" viewBox="0 0 140 45">
+        <text id="URGEN" transform="translate(70 36)" fill="#f700ff" font-size="37" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-69.8" y="0">URGEN</tspan></text>
+      </svg>
+     </div> -->
+
+     <a href="javascript:void(0)" class="alert__toggle" role="button" aria-expanded="false" aria-controls="menu">
+
+      <svg class="w-100" xmlns="http://www.w3.org/2000/svg" width="24.659" height="27.5" viewBox="0 0 24.659 27.5">
+        <path id="notification" d="M27.746,19.427l-2.561-2.561V12.5A9.549,9.549,0,0,0,16.65,3.022v-1.9h-1.9v1.9A9.625,9.625,0,0,0,6.219,12.5v4.362L3.659,19.427a.863.863,0,0,0-.284.663v2.845a.891.891,0,0,0,.948.948h6.638a4.741,4.741,0,0,0,9.483,0h6.638a.891.891,0,0,0,.948-.948V20.091A.863.863,0,0,0,27.746,19.427ZM15.7,26.728a2.845,2.845,0,0,1-2.845-2.845h5.69A2.845,2.845,0,0,1,15.7,26.728Zm10.431-4.741H5.271V20.47l2.561-2.561a.863.863,0,0,0,.284-.663V12.5a7.586,7.586,0,1,1,15.172,0v4.741a.863.863,0,0,0,.284.663l2.561,2.561Z" transform="translate(-3.373 -1.125)" fill="#fff"/>
+      </svg>
+
+    </a>
+
+
+      <!-- ANIMATED BACKGROUND ELEMENT -->
+      <div class="splash"></div>
+
+    </nav>
+
+  </header>
+<div class="container">
   <router-outlet></router-outlet>
+</div>
+<div class="FABMenu">
+  <input type="checkbox" />
+  <div class="hamburger">
+    <div class="dots">
+      <span class="first"></span>
+      <span class="second"></span>
+      <span class="third"></span>
+    </div>
+  </div>
+  <div class="action_items_bar">
+    <div class="action_items">
+      <span class="first_item">
+        <i class="material-icons">
+        favorite
+        </i>
+      </span>
+      <span class="second_item">
+        <i class="material-icons">
+        chat
+        </i>
+      </span>
+      <span class="third_item">
+        <i class="material-icons">
+        get_app
+        </i>
+      </span>
+      <span class="fourth_item">
+        <i class="material-icons">
+        share
+        </i>
+      </span>
+    </div>
+  </div>
+</div>
 </div>

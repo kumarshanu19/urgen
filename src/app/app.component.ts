@@ -24,7 +24,7 @@ export class AppComponent {
       this.timeout = setTimeout(() => {
         clearTimeout(this.timeout);
         this.loader = false;
-      }, 3000);
+      }, 0);
     }
     if (event instanceof NavigationCancel) {
       this.loader = false;

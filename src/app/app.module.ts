@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
 import { NgOtpInputModule } from 'ng-otp-input';
-import { MenuComponent } from './shared/menu/menu.component';
 import { HomeComponent } from './components/home/home.component';
 import { VerificationComponent } from './auth/verification/verification.component';
 import { SignupComponent } from './auth/signup/signup.component';
@@ -17,7 +16,6 @@ import { LayoutComponent } from './shared/layout/layout.component';
     LoginComponent,
     SignupComponent,
     VerificationComponent,
-    MenuComponent,
     LayoutComponent,
     HomeComponent
   ],
